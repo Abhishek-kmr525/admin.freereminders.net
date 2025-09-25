@@ -1,0 +1,5 @@
+[24-Sep-2025 17:34:34 UTC] PHP Warning:  require_once(/config/database-config.php): Failed to open stream: No such file or directory in /home/qcidb7kof599/public_html/postautomator.com/test.php on line 3
+[24-Sep-2025 17:34:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/config/database-config.php' (include_path='.:/opt/alt/php84/usr/share/pear:/opt/alt/php84/usr/share/php:/usr/share/pear:/usr/share/php') in /home/qcidb7kof599/public_html/postautomator.com/test.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/qcidb7kof599/public_html/postautomator.com/test.php on line 3

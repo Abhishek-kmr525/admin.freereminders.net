@@ -1,0 +1,110 @@
+[2025-09-20 21:34:08] Uncaught Exception: Cannot access private property Database::$db_name in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/config/config.php on line 367
+[2025-09-20 21:40:03] PHP Error: Undefined array key "username" in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 62
+[2025-09-20 21:40:03] PHP Error: Undefined variable $totalAutomations in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 103
+[2025-09-20 21:40:03] PHP Error: Undefined variable $activeAutomations in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 118
+[2025-09-20 21:40:03] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 118
+[2025-09-20 21:40:11] PHP Error: Undefined array key "username" in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 62
+[2025-09-20 21:40:11] PHP Error: Undefined variable $totalAutomations in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 103
+[2025-09-20 21:40:11] PHP Error: Undefined variable $activeAutomations in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 118
+[2025-09-20 21:40:11] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 118
+[2025-09-20 21:40:16] PHP Error: Undefined array key "username" in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 62
+[2025-09-20 21:40:16] PHP Error: Undefined variable $totalAutomations in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 103
+[2025-09-20 21:40:16] PHP Error: Undefined variable $activeAutomations in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 118
+[2025-09-20 21:40:16] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 118
+[2025-09-20 21:47:13] PHP Error: Undefined array key "username" in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 62
+[2025-09-20 21:47:13] PHP Error: Undefined variable $totalAutomations in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 103
+[2025-09-20 21:47:13] PHP Error: Undefined variable $activeAutomations in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 118
+[2025-09-20 21:47:13] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 118
+[2025-09-20 21:47:15] PHP Error: Undefined array key "username" in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 62
+[2025-09-20 21:47:15] PHP Error: Undefined variable $totalAutomations in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 103
+[2025-09-20 21:47:15] PHP Error: Undefined variable $activeAutomations in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 118
+[2025-09-20 21:47:15] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 118
+[2025-09-20 21:47:18] PHP Error: Undefined array key "username" in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 62
+[2025-09-20 21:47:18] PHP Error: Undefined variable $totalAutomations in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 103
+[2025-09-20 21:47:18] PHP Error: Undefined variable $activeAutomations in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 118
+[2025-09-20 21:47:18] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 118
+[2025-09-20 21:47:40] PHP Error: Undefined array key "username" in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 62
+[2025-09-20 21:47:40] PHP Error: Undefined variable $totalAutomations in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 103
+[2025-09-20 21:47:40] PHP Error: Undefined variable $activeAutomations in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 118
+[2025-09-20 21:47:40] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 118
+[2025-09-20 21:48:39] PHP Error: Undefined array key "username" in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 62
+[2025-09-20 21:48:39] PHP Error: Undefined variable $totalAutomations in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 103
+[2025-09-20 21:48:39] PHP Error: Undefined variable $activeAutomations in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 118
+[2025-09-20 21:48:39] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 118
+[2025-09-20 21:48:52] PHP Error: Undefined array key "username" in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 62
+[2025-09-20 21:48:52] PHP Error: Undefined variable $totalAutomations in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 103
+[2025-09-20 21:48:52] PHP Error: Undefined variable $activeAutomations in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 118
+[2025-09-20 21:48:52] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 118
+[2025-09-20 21:49:01] PHP Error: Undefined array key "username" in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 62
+[2025-09-20 21:49:01] PHP Error: Undefined variable $totalAutomations in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 103
+[2025-09-20 21:49:01] PHP Error: Undefined variable $activeAutomations in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 118
+[2025-09-20 21:49:01] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/qcidb7kof599/public_html/sf.nexloadtrucking.com/admin/login.php on line 118
+[2025-09-20 22:09:10] PHP Error: Undefined array key "username" in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 62
+[2025-09-20 22:09:10] PHP Error: Undefined variable $totalAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 103
+[2025-09-20 22:09:10] PHP Error: Undefined variable $activeAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:09:10] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:09:12] PHP Error: Undefined array key "username" in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 62
+[2025-09-20 22:09:12] PHP Error: Undefined variable $totalAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 103
+[2025-09-20 22:09:12] PHP Error: Undefined variable $activeAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:09:12] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:09:14] PHP Error: Undefined array key "username" in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 62
+[2025-09-20 22:09:14] PHP Error: Undefined variable $totalAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 103
+[2025-09-20 22:09:14] PHP Error: Undefined variable $activeAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:09:14] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:11:23] PHP Error: Undefined array key "username" in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 62
+[2025-09-20 22:11:23] PHP Error: Undefined variable $totalAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 103
+[2025-09-20 22:11:23] PHP Error: Undefined variable $activeAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:11:23] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:11:24] PHP Error: Undefined array key "username" in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 62
+[2025-09-20 22:11:24] PHP Error: Undefined variable $totalAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 103
+[2025-09-20 22:11:24] PHP Error: Undefined variable $activeAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:11:24] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:11:25] PHP Error: Undefined array key "username" in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 62
+[2025-09-20 22:11:25] PHP Error: Undefined variable $totalAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 103
+[2025-09-20 22:11:25] PHP Error: Undefined variable $activeAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:11:25] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:11:26] PHP Error: Undefined array key "username" in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 62
+[2025-09-20 22:11:26] PHP Error: Undefined variable $totalAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 103
+[2025-09-20 22:11:26] PHP Error: Undefined variable $activeAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:11:26] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:11:27] PHP Error: Undefined array key "username" in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 62
+[2025-09-20 22:11:27] PHP Error: Undefined variable $totalAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 103
+[2025-09-20 22:11:27] PHP Error: Undefined variable $activeAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:11:27] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:11:30] PHP Error: Undefined array key "username" in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 62
+[2025-09-20 22:11:30] PHP Error: Undefined variable $totalAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 103
+[2025-09-20 22:11:30] PHP Error: Undefined variable $activeAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:11:30] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:11:38] PHP Error: Undefined array key "username" in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 62
+[2025-09-20 22:11:38] PHP Error: Undefined variable $totalAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 103
+[2025-09-20 22:11:38] PHP Error: Undefined variable $activeAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:11:38] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:12:13] PHP Error: Undefined array key "username" in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 62
+[2025-09-20 22:12:13] PHP Error: Undefined variable $totalAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 103
+[2025-09-20 22:12:13] PHP Error: Undefined variable $activeAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:12:13] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:12:16] PHP Error: Undefined array key "username" in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 62
+[2025-09-20 22:12:16] PHP Error: Undefined variable $totalAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 103
+[2025-09-20 22:12:16] PHP Error: Undefined variable $activeAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:12:16] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:12:18] PHP Error: Undefined array key "username" in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 62
+[2025-09-20 22:12:18] PHP Error: Undefined variable $totalAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 103
+[2025-09-20 22:12:18] PHP Error: Undefined variable $activeAutomations in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-20 22:12:18] Uncaught Exception: count(): Argument #1 ($value) must be of type Countable|array, null given in /Applications/XAMPP/xamppfiles/htdocs/linkedin_automator/admin/login.php on line 118
+[2025-09-24 16:09:46] LinkedIn OAuth callback error: OAuth authorization was denied or failed: invalid_request | Customer: 4 (mr.abhishek525@gmail.com) | IP: 152.58.159.185 | User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-24 16:11:05] LinkedIn OAuth callback error: Missing state parameter. Possible CSRF attack. | IP: 152.58.159.185 | User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15
+[2025-09-24 16:12:00] LinkedIn OAuth callback error: OAuth authorization was denied or failed: invalid_scope | IP: 152.58.159.185 | User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15
+[2025-09-24 16:12:15] LinkedIn OAuth callback error: OAuth authorization was denied or failed: invalid_request | IP: 152.58.159.185 | User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15
+[2025-09-24 16:13:54] LinkedIn OAuth callback error: OAuth authorization was denied or failed: unauthorized_scope_error | IP: 152.58.159.185 | User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15
+[2025-09-24 16:18:49] LinkedIn OAuth callback error: Invalid state parameter. Session may have expired. | Customer: 4 (mr.abhishek525@gmail.com) | IP: 152.58.159.185 | User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+[2025-09-24 16:37:44] LinkedIn OAuth callback error: Invalid state parameter. Session may have expired. | Customer: 6 (ravirajarg@gmail.com) | IP: 49.37.25.122 | User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0
+[2025-09-24 16:38:33] LinkedIn OAuth callback error: Invalid state parameter. Session may have expired. | Customer: 6 (ravirajarg@gmail.com) | IP: 49.37.25.122 | User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0
+[2025-09-24 16:39:07] LinkedIn OAuth callback error: Invalid state parameter. Session may have expired. | Customer: 6 (ravirajarg@gmail.com) | IP: 49.37.25.122 | User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0
+[2025-09-24 16:53:48] LinkedIn OAuth callback error: Invalid state parameter. Session may have expired. | IP: 152.58.159.185 | User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15
+[2025-09-24 17:02:13] Failed to store LinkedIn token: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'token_type' in 'INSERT INTO' | Customer: 4 (mr.abhishek525@gmail.com) | IP: 152.58.159.185 | User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15
+[2025-09-24 17:02:44] Failed to store LinkedIn token: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'token_type' in 'INSERT INTO' | Customer: 4 (mr.abhishek525@gmail.com) | IP: 152.58.159.185 | User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15
+[2025-09-24 17:25:20] Failed to store LinkedIn token: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'token_type' in 'INSERT INTO' | Customer: 4 (mr.abhishek525@gmail.com) | IP: 152.58.159.185 | User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15
+[2025-09-24 17:30:44] Failed to store LinkedIn token: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'token_type' in 'INSERT INTO' | Customer: 4 (mr.abhishek525@gmail.com) | IP: 152.58.159.185 | User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15
+[2025-09-24 17:30:55] Failed to store LinkedIn token: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'token_type' in 'INSERT INTO' | Customer: 4 (mr.abhishek525@gmail.com) | IP: 152.58.159.185 | User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15
+[2025-09-24 17:34:14] Failed to store LinkedIn token: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'token_type' in 'INSERT INTO' | Customer: 4 (mr.abhishek525@gmail.com) | IP: 152.58.159.185 | User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15
+[2025-09-24 17:36:51] Failed to store LinkedIn token: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'token_type' in 'INSERT INTO' | Customer: 4 (mr.abhishek525@gmail.com) | IP: 152.58.159.185 | User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Safari/605.1.15

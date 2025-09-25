@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Git Easy Push — Frontend</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Git Easy Push — Command Builder</h1>
+    <form id="cmdForm">
+      <label>Commit message
+        <input type="text" id="message" placeholder="first commit" value="first commit">
+      </label>
+
+      <label>Branch
+        <input type="text" id="branch" placeholder="main" value="main">
+      </label>
+
+      <label>Remote name
+        <input type="text" id="remote" placeholder="origin" value="origin">
+      </label>
+
+      <label>Remote URL
+        <input type="url" id="url" placeholder="https://github.com/user/repo.git">
+      </label>
+
+      <label>Files / Paths (space-separated)
+        <input type="text" id="paths" placeholder="README.md src/">
+      </label>
+
+      <label><input type="checkbox" id="init"> Run git init</label>
+      <label><input type="checkbox" id="addAll"> Add all files (-a)</label>
+      <label><input type="checkbox" id="dryRun"> Dry run (show commands only)</label>
+      <label><input type="checkbox" id="force"> Force push</label>
+
+      <div class="buttons">
+        <button type="button" id="buildBtn">Build Command</button>
+        <button type="button" id="copyBtn">Copy to clipboard</button>
+      </div>
+    </form>
+
+    <section>
+      <h2>Command</h2>
+      <pre id="output" class="output">./scripts/git-easy-push.sh --init -u https://github.com/Abhishek-kmr525/POST7493u93.git -b main -m "first commit" README.md</pre>
+    </section>
+
+    <p class="note">Open this file in a browser locally (file://) or serve the `frontend/` directory with a simple static server.</p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

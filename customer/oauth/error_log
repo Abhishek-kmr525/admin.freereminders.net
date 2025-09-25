@@ -1,0 +1,81 @@
+[24-Sep-2025 08:18:08 UTC] Google OAuth Debug - Returned state: 209bc8f4abfcf33be0a6c4ae6f531615bae16401950001d1af69c4fff7af8f8a
+[24-Sep-2025 08:18:08 UTC] Google OAuth callback error: Invalid state parameter. Possible CSRF attack.
+[24-Sep-2025 08:18:08 UTC] Google OAuth callback trace: #0 {main}
+[24-Sep-2025 11:28:16 UTC] Google OAuth Debug - Returned state: 
+[24-Sep-2025 11:28:16 UTC] Google OAuth callback error: Missing state parameter. Possible CSRF attack.
+[24-Sep-2025 11:28:16 UTC] Google OAuth callback trace: #0 {main}
+[24-Sep-2025 11:28:39 UTC] Google OAuth Debug - Returned state: 342bb8536f1f49880b5063a63fcd1f630d7c96792d3c0fefc0a7c7b87f414b1e
+[24-Sep-2025 11:28:39 UTC] Google OAuth callback error: Invalid state parameter. Possible CSRF attack.
+[24-Sep-2025 11:28:39 UTC] Google OAuth callback trace: #0 {main}
+[24-Sep-2025 11:31:03 UTC] Google OAuth Debug - Returned state: 8b3ff67317f0bfb988c9c478af971a4d25e7facdb0a0e1b0c4289db2818dcced
+[24-Sep-2025 11:31:03 UTC] Google OAuth callback error: Invalid state parameter. Possible CSRF attack.
+[24-Sep-2025 11:31:03 UTC] Google OAuth callback trace: #0 {main}
+[24-Sep-2025 11:32:01 UTC] Google OAuth Debug - Returned state: 
+[24-Sep-2025 11:32:01 UTC] Google OAuth callback error: Missing state parameter. Possible CSRF attack.
+[24-Sep-2025 11:32:01 UTC] Google OAuth callback trace: #0 {main}
+[24-Sep-2025 11:36:34 UTC] Google OAuth Debug - Returned state: f0641626e46311da5ad29afa491b5b985f6865fff99b70a4cedb917de36a5eff
+[24-Sep-2025 11:36:34 UTC] Google OAuth callback error: Invalid state parameter. Possible CSRF attack.
+[24-Sep-2025 11:36:34 UTC] Google OAuth callback trace: #0 {main}
+[24-Sep-2025 11:37:48 UTC] Google OAuth Debug - Returned state: 2a1af12553ea58f8ff09b1466c056046a3696859fc498b5b5255cdbf18572dc1
+[24-Sep-2025 11:37:48 UTC] Google OAuth callback error: Invalid state parameter. Possible CSRF attack.
+[24-Sep-2025 11:37:48 UTC] Google OAuth callback trace: #0 {main}
+[24-Sep-2025 11:49:02 UTC] Google OAuth Debug - Returned state: ec15e326d3a58a7d63dbebab1d988b11db00946d3474aa22d9ee4f6a059ed80a
+[24-Sep-2025 11:49:02 UTC] Google OAuth Debug - Stored state: ec15e326d3a58a7d63dbebab1d988b11db00946d3474aa22d9ee4f6a059ed80a
+[24-Sep-2025 11:58:29 UTC] Google OAuth Debug - Returned state: 23b550af690b154d833a61796bcd252d3e953a507f9f939666048b3d49edf886
+[24-Sep-2025 11:58:29 UTC] Google OAuth Debug - Stored state: 23b550af690b154d833a61796bcd252d3e953a507f9f939666048b3d49edf886
+[24-Sep-2025 11:59:07 UTC] Google OAuth Debug - Returned state: fdbe521c7602570532b64830007f18b0e1123cacf25487dc25db8f2198f8356a
+[24-Sep-2025 11:59:07 UTC] Google OAuth Debug - Stored state: fdbe521c7602570532b64830007f18b0e1123cacf25487dc25db8f2198f8356a
+[24-Sep-2025 13:54:25 UTC] Google OAuth Debug - Returned state: 75fe591f47f267802bce8b62e7e3a85f570f7c7892957db7d7cfe1246bbfd671
+[24-Sep-2025 13:54:25 UTC] Google OAuth Debug - Stored state: 75fe591f47f267802bce8b62e7e3a85f570f7c7892957db7d7cfe1246bbfd671
+[24-Sep-2025 15:43:25 UTC] Google OAuth Debug - Returned state: 7b55fa563897fae369b31c29300a21ee6e4ff78236fb5d5507dc8977fc2b1ec1
+[24-Sep-2025 15:43:25 UTC] Google OAuth Debug - Stored state: 7b55fa563897fae369b31c29300a21ee6e4ff78236fb5d5507dc8977fc2b1ec1
+[24-Sep-2025 16:33:45 UTC] Google OAuth Debug - Returned state: fe9b08c2652b633bf4b42883d734beef8f0f692ebaa047c936ce0636d0537c85
+[24-Sep-2025 16:33:45 UTC] Google OAuth Debug - Stored state: fe9b08c2652b633bf4b42883d734beef8f0f692ebaa047c936ce0636d0537c85
+[24-Sep-2025 17:44:17 UTC] Google OAuth Debug - Returned state: a0173ed5fa78713f21b305b2364bccfcbb91fbee06ed75706324d5cf75a6c02c
+[24-Sep-2025 17:44:17 UTC] Google OAuth Debug - Stored state: 
+[24-Sep-2025 17:44:17 UTC] Google OAuth callback error: Invalid state parameter. Session may have expired.
+[24-Sep-2025 17:44:17 UTC] Google OAuth callback trace: #0 {main}
+[24-Sep-2025 17:44:37 UTC] Google OAuth Debug - Returned state: 07b86d62a0d3b7036e25558157b973ff1672c4382f619363ecbdda61b8fb87b3
+[24-Sep-2025 17:44:37 UTC] Google OAuth Debug - Stored state: 
+[24-Sep-2025 17:44:37 UTC] Google OAuth callback error: Invalid state parameter. Session may have expired.
+[24-Sep-2025 17:44:37 UTC] Google OAuth callback trace: #0 {main}
+[24-Sep-2025 17:46:04 UTC] Google OAuth Debug - Returned state: 10088e4ed5a283da91b440746bb13be5f7b8c311b5666623dbed1bcb5c70b36f
+[24-Sep-2025 17:46:04 UTC] Google OAuth Debug - Stored state: 
+[24-Sep-2025 17:46:04 UTC] Google OAuth callback error: Invalid state parameter. Session may have expired.
+[24-Sep-2025 17:46:04 UTC] Google OAuth callback trace: #0 {main}
+[24-Sep-2025 17:47:27 UTC] Google OAuth Debug - Returned state: 898e74d38298ba2b32a1032b9d04d7e0b744f60df81cf30857c2ad44a7133d65
+[24-Sep-2025 17:47:27 UTC] Google OAuth Debug - Stored state: 
+[24-Sep-2025 17:47:27 UTC] Google OAuth callback error: Invalid state parameter. Session may have expired.
+[24-Sep-2025 17:47:27 UTC] Google OAuth callback trace: #0 {main}
+[24-Sep-2025 17:54:51 UTC] Google OAuth Debug - Returned state: df5717041da7cfc6ed7d983040d1cda3c5528a58523e1c7253ac4280adce9c28
+[24-Sep-2025 17:54:51 UTC] Google OAuth Debug - Stored state: 
+[24-Sep-2025 17:54:51 UTC] Google OAuth callback error: Invalid state parameter. Session may have expired.
+[24-Sep-2025 17:54:51 UTC] Google OAuth callback trace: #0 {main}
+[24-Sep-2025 17:55:50 UTC] Google OAuth Debug - Returned state: ccbe79760cf7583ef060d29595b9fe3d8ea015e22cc4501ae45ff4a2ad562d6e
+[24-Sep-2025 17:55:50 UTC] Google OAuth Debug - Stored state: 
+[24-Sep-2025 17:55:50 UTC] Google OAuth callback error: Invalid state parameter. Session may have expired.
+[24-Sep-2025 17:55:50 UTC] Google OAuth callback trace: #0 {main}
+[24-Sep-2025 17:56:45 UTC] Google OAuth Debug - Returned state: 193a00c8d5155c6e35dc0599b90122ea9b498a6a6321b43331e4a7224dec3715
+[24-Sep-2025 17:56:45 UTC] Google OAuth Debug - Stored state: 
+[24-Sep-2025 17:56:45 UTC] Google OAuth callback error: Invalid state parameter. Session may have expired.
+[24-Sep-2025 17:56:45 UTC] Google OAuth callback trace: #0 {main}
+[24-Sep-2025 17:58:10 UTC] Google OAuth Debug - Returned state: 62c5805a05920abdc97b3e2f66ef2b575916ebd5b745131640d22d6ff36ff2fd
+[24-Sep-2025 17:58:10 UTC] Google OAuth Debug - Stored state: 
+[24-Sep-2025 17:58:10 UTC] Google OAuth callback error: Invalid state parameter. Session may have expired.
+[24-Sep-2025 17:58:10 UTC] Google OAuth callback trace: #0 {main}
+[24-Sep-2025 19:52:52 UTC] Google OAuth Debug - Returned state: 182601b996af1a345c3c93d3e66d52ce4d18ae661eb69989d70d454f0c94d0a3
+[24-Sep-2025 19:52:52 UTC] Google OAuth Debug - Stored state: 
+[24-Sep-2025 19:52:52 UTC] Google OAuth callback error: Invalid state parameter. Session may have expired.
+[24-Sep-2025 19:52:52 UTC] Google OAuth callback trace: #0 {main}
+[24-Sep-2025 20:03:58 UTC] Google OAuth Debug - Returned state: 1acb3e5841af9277ea552948faf878cefa15f0c93b171bf525ac088b2a3c4a45
+[24-Sep-2025 20:03:58 UTC] Google OAuth Debug - Stored state: 
+[24-Sep-2025 20:03:58 UTC] Google OAuth callback error: Invalid state parameter. Session may have expired.
+[24-Sep-2025 20:03:58 UTC] Google OAuth callback trace: #0 {main}
+[24-Sep-2025 20:04:13 UTC] Google OAuth Debug - Returned state: 729d726f64801dc22cbba2d6addea648d236537fbfc543e14576f38a8ccb0ab2
+[24-Sep-2025 20:04:13 UTC] Google OAuth Debug - Stored state: 
+[24-Sep-2025 20:04:13 UTC] Google OAuth callback error: Invalid state parameter. Session may have expired.
+[24-Sep-2025 20:04:13 UTC] Google OAuth callback trace: #0 {main}
+[24-Sep-2025 20:37:42 UTC] Google OAuth - returnedState=fe5fa3c89255f5670002b488a4e0f354ec4c52ca8e4d8f4502fffd797d2b9f06, storedState=7fe210b662d2a1e737c7f5a35e3756f7dc1986b9f1910dfd90709e37e2298f60, cookieState=
+[24-Sep-2025 20:37:42 UTC] Google OAuth callback error: Invalid state parameter. Session may have expired or state mismatch.
+[24-Sep-2025 20:37:42 UTC] #0 {main}
+[24-Sep-2025 20:37:59 UTC] LinkedIn OAuth error: OAuth authorization denied: unauthorized_scope_error

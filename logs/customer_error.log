@@ -1,0 +1,8 @@
+[2025-09-22 22:02:39] Create Razorpay order error: Razorpay API error: Authentication failed
+[2025-09-22 22:02:39] Payment order creation failed: Razorpay API error: Authentication failed
+[2025-09-23 07:13:03] Failed login attempt for email: mr.abhishek525@gmail.com from IP: ::1
+[2025-09-24 06:57:33] Google OAuth callback error: Invalid state parameter. Possible CSRF attack.
+[2025-09-24 06:58:54] Google OAuth callback error: Invalid state parameter. Possible CSRF attack.
+[2025-09-24 07:58:37] Google OAuth callback error: Invalid state parameter. Possible CSRF attack.
+[2025-09-24 07:58:57] Google OAuth callback error: Invalid state parameter. Possible CSRF attack.
+[2025-09-24 08:13:56] Google OAuth callback error: Invalid state parameter. Possible CSRF attack.
