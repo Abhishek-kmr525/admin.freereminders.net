@@ -4,20 +4,26 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-// Debug path information
+// Start session first
+session_start();
+
+// Database configuration
 $basePath = dirname(__DIR__);
 $configPath = $basePath . '/config/database-config.php';
-$oauthPath = $basePath . '/config/oauth-config.php';
 
 if (!file_exists($configPath)) {
     die('Database config file not found. Looking in: ' . $configPath);
 }
+
+require_once $configPath;
+
+// Now load OAuth config AFTER database is connected
+$oauthPath = $basePath . '/config/oauth-config.php';
+
 if (!file_exists($oauthPath)) {
     die('OAuth config file not found. Looking in: ' . $oauthPath);
 }
 
-// customer/login.php - Fixed version
-require_once $configPath;
 require_once $oauthPath;
 
 $pageTitle = 'Login - ' . SITE_NAME;
