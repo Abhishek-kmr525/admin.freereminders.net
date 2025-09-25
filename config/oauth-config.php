@@ -81,7 +81,7 @@ function ensureSession() {
     if (session_status() === PHP_SESSION_NONE) {
         session_start([
             'cookie_lifetime' => 3600,
-            'cookie_secure' => false, // Set to true in production with HTTPS
+            'cookie_secure' => true,  // Changed to true for HTTPS
             'cookie_httponly' => true,
             'cookie_samesite' => 'Lax'
         ]);
@@ -95,6 +95,12 @@ function generateSecureState() {
 function validateState($receivedState) {
     ensureSession();
     
+    // Check if state exists
+    if (empty($receivedState)) {
+        error_log("OAuth Error: No state parameter received");
+        return false;
+    }
+    
     // Check session state
     $sessionState = $_SESSION['oauth_state'] ?? null;
     $sessionTimestamp = $_SESSION['oauth_timestamp'] ?? 0;
@@ -102,15 +108,29 @@ function validateState($receivedState) {
     // Check cookie state as fallback
     $cookieState = $_COOKIE['oauth_state'] ?? null;
     
+    // Debug logging
+    error_log("Received state: " . substr($receivedState, 0, 20) . "...");
+    error_log("Session state: " . ($sessionState ? substr($sessionState, 0, 20) . "..." : "NONE"));
+    error_log("Cookie state: " . ($cookieState ? substr($cookieState, 0, 20) . "..." : "NONE"));
+    
     // State must match either session or cookie
     $stateValid = ($receivedState === $sessionState) || ($receivedState === $cookieState);
     
-    // Check timestamp (max 1 hour)
-    $timestampValid = (time() - $sessionTimestamp) < 3600;
+    // Check timestamp (max 1 hour) - only if session state exists
+    $timestampValid = true;
+    if ($sessionState && $sessionTimestamp > 0) {
+        $timestampValid = (time() - $sessionTimestamp) < 3600;
+        if (!$timestampValid) {
+            error_log("OAuth Error: State timestamp expired. Age: " . (time() - $sessionTimestamp) . " seconds");
+        }
+    }
+    
+    if (!$stateValid) {
+        error_log("OAuth Error: State mismatch");
+    }
     
     return $stateValid && $timestampValid;
 }
-
 function clearOAuthState() {
     ensureSession();
     unset($_SESSION['oauth_state']);
@@ -125,8 +145,21 @@ function getGoogleLoginUrl() {
     $_SESSION['oauth_state'] = $state;
     $_SESSION['oauth_timestamp'] = time();
     
-    // Set cookie as fallback
-    setcookie('oauth_state', $state, time() + 3600, '/', '', false, true);
+    // Set cookie as fallback with matching settings
+    setcookie('oauth_state', $state, [
+        'expires' => time() + 3600,
+        'path' => '/',
+        'domain' => '',
+        'secure' => true,  // HTTPS only
+        'httponly' => true,
+        'samesite' => 'Lax'
+    ]);
+    
+    // Debug logging
+    error_log("=== Google Login URL Generated ===");
+    error_log("Session ID: " . session_id());
+    error_log("Generated State: " . $state);
+    error_log("Timestamp: " . time());
     
     $params = [
         'client_id' => GOOGLE_CLIENT_ID,
@@ -149,19 +182,18 @@ function getLinkedInLoginUrl() {
     $_SESSION['oauth_timestamp'] = time();
     
     // Set cookie as fallback
-    setcookie('oauth_state', $state, time() + 3600, '/', '', false, true);
+    setcookie('oauth_state', $state, time() + 3600, '/', '', true, true);
     
     $params = [
         'response_type' => 'code',
         'client_id' => LINKEDIN_CLIENT_ID,
         'redirect_uri' => LINKEDIN_REDIRECT_URI,
-        'scope' => 'openid profile email w_member_social',
+        'scope' => 'openid profile email',  // REMOVED w_member_social - it requires special approval
         'state' => $state
     ];
     
     return 'https://www.linkedin.com/oauth/v2/authorization?' . http_build_query($params);
 }
-
 function exchangeGoogleCodeForToken($code) {
     $data = [
         'client_id' => GOOGLE_CLIENT_ID,
@@ -249,17 +281,39 @@ function getGoogleUserInfo($accessToken) {
 }
 
 function getLinkedInUserInfo($accessToken) {
-    // Get profile info
-    $profileUrl = 'https://api.linkedin.com/v2/people/~?projection=(id,firstName,lastName,profilePicture(displayImage~:playableStreams))';
-    $profile = makeLinkedInApiRequest($profileUrl, $accessToken);
+    // Use OpenID Connect userinfo endpoint instead of deprecated v2 API
+    $url = 'https://api.linkedin.com/v2/userinfo';
     
-    // Get email
-    $emailUrl = 'https://api.linkedin.com/v2/emailAddress?q=members&projection=(elements*(handle~))';
-    $email = makeLinkedInApiRequest($emailUrl, $accessToken);
+    $ch = curl_init($url);
+    curl_setopt_array($ch, [
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_HTTPHEADER => ['Authorization: Bearer ' . $accessToken],
+        CURLOPT_TIMEOUT => 30,
+        CURLOPT_SSL_VERIFYPEER => true
+    ]);
     
+    $response = curl_exec($ch);
+    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+    
+    if ($httpCode !== 200) {
+        error_log("LinkedIn userinfo failed: HTTP $httpCode - $response");
+        throw new Exception("LinkedIn user info request failed with HTTP $httpCode: $response");
+    }
+    
+    $result = json_decode($response, true);
+    if (json_last_error() !== JSON_ERROR_NONE) {
+        throw new Exception("Invalid JSON response from LinkedIn userinfo: " . json_last_error_msg());
+    }
+    
+    // Return normalized structure
     return [
-        'profile' => $profile,
-        'email' => $email
+        'id' => $result['sub'] ?? '',
+        'email' => $result['email'] ?? '',
+        'name' => $result['name'] ?? '',
+        'given_name' => $result['given_name'] ?? '',
+        'family_name' => $result['family_name'] ?? '',
+        'picture' => $result['picture'] ?? ''
     ];
 }
 
@@ -300,21 +354,18 @@ function createOrUpdateOAuthCustomer($provider, $userData) {
         $providerId = '';
         $profilePicture = '';
         
-        if ($provider === 'google') {
-            $email = $userData['email'] ?? '';
-            $name = $userData['name'] ?? '';
-            $providerId = $userData['id'] ?? '';
-            $profilePicture = $userData['picture'] ?? '';
-        } elseif ($provider === 'linkedin') {
-            $emailData = $userData['email']['elements'][0]['handle~']['emailAddress'] ?? '';
-            $firstName = $userData['profile']['firstName']['localized']['en_US'] ?? '';
-            $lastName = $userData['profile']['lastName']['localized']['en_US'] ?? '';
-            $email = $emailData;
-            $name = trim("$firstName $lastName");
-            $providerId = $userData['profile']['id'] ?? '';
-            $profilePicture = $userData['profile']['profilePicture']['displayImage~']['elements'][0]['identifiers'][0]['identifier'] ?? '';
-        }
-        
+       if ($provider === 'google') {
+    $email = $userData['email'] ?? '';
+    $name = $userData['name'] ?? '';
+    $providerId = $userData['id'] ?? '';
+    $profilePicture = $userData['picture'] ?? '';
+} elseif ($provider === 'linkedin') {
+    // NEW: Handle OpenID Connect format
+    $email = $userData['email'] ?? '';
+    $name = $userData['name'] ?? '';
+    $providerId = $userData['id'] ?? '';
+    $profilePicture = $userData['picture'] ?? '';
+}
         if (empty($email)) {
             throw new Exception('Email not provided by OAuth provider');
         }
